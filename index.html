@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <main class="container">
+        <div class="intro flex-item">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable. </p>
+        </div>
+        <div class="signup flex-item">
+            <p class="trial">Try it free 7 days <span>then $20/mo. thereafter</span></p>
+            <div class="form-wrap">
+                <form>
+                    <div class="form-item">
+                        <input type="text" name="first-name" placeholder="Firstname">
+                        <p class="error-msg hide">Firstname cannot be empty</p>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="last-name" placeholder="Lastname">
+                         <p class="error-msg hide">Lastname cannot be empty</p>
+                    </div>
+                    <div class="form-item">
+                        <input type="email" name="email" placeholder="Email Address">
+                        <p class="error-msg hide">Looks like this is not an email</p>
+                    </div>
+                    <div class="form-item">
+                        <input type="password" name="password" placeholder="Password">
+                        <p class="error-msg hide">Password cannot be empty</p>
+                    </div>
+                    <button>CLAIM YOUR FREE TRIAL</button>
+                </form>
+                <div class="note">
+                    By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Nguyen Le Vinh</a>.
+        </p>
+      </footer>
+      <script src="./js/main.js"></script>
+</body>
+</html>
